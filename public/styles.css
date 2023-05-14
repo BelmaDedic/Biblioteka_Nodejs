@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+    background-color: rgb(232, 231, 231);
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-left: 1%;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+
+.links{
+    display: flex;
+    align-items: flex-end;
+    font-size: 20px;
+    gap: 30px;
+    margin-right: 2%;
+}
+
+.books h1 {
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    color: rgb(23, 23, 23);
+}
+
+.books a {
+    text-decoration: none;
+    color: black;
+}
+
+.book {
+    width: 600px;
+    background-color: rgb(212, 212, 212);
+    border-radius: 25px;
+    margin: auto;
+    margin-bottom: 0.5%;
+}
+
+.title {
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-top: 2%;
+    margin-bottom: 1%;
+}
+
+.author {
+    margin-left: 4%;
+    margin-right: 4%;
+    font-size: large;
+    padding-bottom: 2%;
+}
+
+.add-new h2 {
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    color: rgb(23, 23, 23);
+    font-size: 28px;
+}
+
+.form {
+   text-align: center;
+}
+
+input {
+    margin-bottom: 2%;
+    font-size: large;
+    padding: 5px;
+    width: 450px;
+}
+
+.label {
+    display: inline-block;
+    width: 120px;
+    text-align: left;
+    font-size: larger;
+}
+
+.form button {
+    margin-top: 4%;
+    margin-bottom: 2%;
+    border-radius: 4px;
+    background-color: rgb(232, 136, 152);
+    width: 80px;
+    padding: 2px;
+    font-size: 18px;
+}
+
+.details {
+    font-size: 25px;
+    text-align: center;
+}
+
+.details h2 {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+.details p {
+    margin-top: 1%;
+    margin-left: 4%;
+    text-align: left;
+}
+
+.details button {
+    margin-top: 8%;
+    background-color: rgb(133, 66, 199);
+    width: 130px;
+    padding: 5px;
+    font-size: large;
+    border-radius: 4px;
+}

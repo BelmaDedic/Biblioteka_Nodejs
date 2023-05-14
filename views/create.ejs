@@ -1,0 +1,29 @@
+<html lang="en">
+    <%- include("./partials/head.ejs") %>
+
+    <body>
+        <%- include("./partials/nav.ejs") %>
+        <div class="add-new">
+            <h2>Add a New Book</h2>
+            <div class="form">
+                <form action="/books" method="POST">
+                    <label for="title" class="label">Title: </label>
+                    <input type="text" name="title" required>
+                    <br/>
+                    <label for="author" class="label">Author: </label>
+                    <input type="text" name="author" required>
+                    <br/>
+                    <label for="pageNumber" class="label">Page number: </label>
+                    <input type="number" min="1" name="numberOfPages" required>
+                    <br/>
+                    <label for="description" class="label">Description: </label>
+                    <textarea  rows="9" cols="59" name="description" required style="vertical-align: middle; font-size: large; padding: 5px; width: 450px;"></textarea>
+                    <br/>
+                    <button>Submit</button>
+                </form>
+            </div>
+        </div>
+
+    </body>
+
+</html>

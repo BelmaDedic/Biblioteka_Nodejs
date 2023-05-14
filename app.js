@@ -7,7 +7,7 @@ const blogRoutes = require('./routes/bookRoutes');
 
 const app = express();
 
-const dbURI = 'mongodb+srv://belma:svadba1712@cluster0.kn4cg.mongodb.net/library?retryWrites=true&w=majority';
+const dbURI = 'mongodb+srv://name:password@cluster0.kn4cg.mongodb.net/library?retryWrites=true&w=majority';
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true })
 .then(result => app.listen(3000))
 .catch(err => console.log(err));
